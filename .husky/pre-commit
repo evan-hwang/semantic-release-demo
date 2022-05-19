@@ -1,5 +1,0 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-echo 나 자신 커밋하느라 고생했다 😀
-exec < /dev/tty && node_modules/.bin/cz --hook || true
